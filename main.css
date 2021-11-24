@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: white;
+	height: 10vh;
+	padding:5px 20px;
+}
+.header img{
+	float: left;
+	height:50px;
+}
+.header ul{
+	list-style-type: none;
+	padding:10px 0px;
+	margin-left: 31%;
+	float: left;
+	width: 30%;
+}
+.header ul li{
+	display: inline;
+	padding: 0 15px;
+}
+.header input{
+	float: right;
+	padding:5px 10px;
+	background-color: red;
+	boder: none;
+	boder:1px solid white;
+	boder-radius: 5px;
+	mardin-top:10px;
+}
+.header input:hover{	
+    background-color: red;
+	color: white;
+}
+.banner{
+	background-image: url("banner.jpg");
+	height:90vh;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner .noidungb{
+	padding:7% 10%;
+	color: white;
+}
+.banner .noidungb h1{
+	font-size: 60px;
+}
+.test{
+	height: 130px;
+	background-color: white;
+	text-align: center;
+	color:palevioletred;
+}
+.test h1{
+	padding:1% 0%;
+}
+.banner1{
+	background-image: url(MatBang.png);
+	height:90vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.cau2{
+	height: 130px;
+	background-color: white;
+	text-align: center;
+	color:palevioletred;
+}
+.cau2 h1{
+	padding:1% 0%;
+}
+.blogpost{
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+.blogpost .item{
+	width: 25%;
+}
+.blogpost .item img{
+	width: 450px;
+}
+.blogpost .item h3,p{
+	padding: 5px 0;
+}
+.real{
+	background-color:  palevioletred;
+}
+.real .tieude{
+	text-align: center;
+	padding:50px 100px;
+	color: white;
+}
+.real .tieude hr{
+	width: 30%;
+	margin:0 auto;
+	border:1px solid #F4D657;
+}
+.binhdinh{
+	text-align: center;
+}
+.manageperson .binhdinh img{
+	width: 70%;
+}
+.manageperson{
+	display: flex;
+	justify-content: space-around;
+}
+.ab .abt{
+	float: left;
+	width: 49%;
+	height: 220px;
+}
+.abb i{
+	color: cadetblue;
+	padding:0 150px;
+}
+.abb{
+	float: left;
+	width: 45%;
+	padding:10px;
+}
+.abp img{
+	width: 300px;
+}
+.bangten{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+.bangten .ten{
+	width: 500%;
+	text-align: center;
+}
+.bangten .ten img{
+	width: 400px;
+}
+.bangten .ten h3,p{
+	padding: 5px 0;
+}
+.tenbang{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+.tenbang .tem{
+	width: 500%;
+	text-align: center;
+}
+.tenbang .tem img{
+	width: 400px;
+}
+.tenbang .tem h3,p{
+	padding: 5px 0;
+}
